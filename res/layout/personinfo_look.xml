@@ -1,0 +1,153 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oc.mobilsecurity.LoginActivity" >
+
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/edit_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/edit_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="修改中"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <!-- Login form -->
+
+    <RelativeLayout
+        android:id="@+id/edit_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/personinfoHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/editHeader"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <com.oc.mobilsecurity.decorator.CustomButtonArrow
+                    android:id="@+id/personinfoUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:minHeight="48dip"
+                    android:minWidth="64dip" />
+
+                <Button
+                    android:id="@+id/personinfoPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/editPassword"
+                    android:textSize="16sp" />
+
+                <com.oc.mobilsecurity.decorator.CustomButtonArrow
+                    android:id="@+id/personinfoEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:minHeight="48dip"
+                    android:minWidth="64dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <com.oc.mobilsecurity.decorator.CustomButton
+                    android:id="@+id/personinfoName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:minHeight="48dip"
+                    android:minWidth="64dip" />
+
+                <com.oc.mobilsecurity.decorator.CustomButton
+                    android:id="@+id/personinfoID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:minHeight="48dip"
+                    android:minWidth="64dip" />
+
+                <com.oc.mobilsecurity.decorator.CustomButton
+                    android:id="@+id/personinfoMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:minHeight="48dip"
+                    android:minWidth="64dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</merge>

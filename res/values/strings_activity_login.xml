@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="title_activity_login">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="login_progress_signing_in">检测中</string>
+    <string name="login_progress_register">正在注册</string>
+    <string name="edit_progress">修改中</string>
+    <string name="edit_success">修改成功</string>
+    <string name="edit_failure">修改失败，请重试</string>
+    <string name="error_invalid_username">不可能有这种用户名</string>
+    <string name="error_invalid_password">密码太短不安全</string>
+    <string name="error_invalid_name">咋可能是这名字</string>
+    <string name="error_invalid_id">身份证号是18位哦</string>
+    <string name="error_invalid_mobile">手机号是11位哦</string>
+    <string name="error_invalid_mail">邮箱不是这么写的</string>
+    <string name="error_incorrect_password">傲娇了的密码</string>
+    <string name="error_field_required">这里怎么能空着</string>
+    <!-- Strings related to layout -->
+    <string name="userheader_image_content_description">This is the userheader image!</string>
+    <string name="username_edittext_hint">用户名</string>
+    <string name="password_edittext_hint">密码</string>
+    <string name="login_button_text">登  录</string>
+    <string name="findback_textview_text">找回或快速登录</string>
+    <string name="register_textview_text">注册</string>
+    
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Version">0.4.0.140608_beta</string>
+    <string name="copyright">©Copyright 2014 海创团队</string>
+    <string name="app_name">手机验证卫士</string>
+    <string name="description">THIS IS IMAGE DESCRIPTION!</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_capture">Capture QR</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_application_fragment">ApplicationFragment</string>
+    <string name="title_activity_person_info_fragment">PersonInfoFragment</string>
+    <string name="title_activity_menu_fragment">MenuFragment</string>
+    <string name="title_activity_about_fragment">About</string>
+    <string name="title_activity_person_info_look">PersonInfoLook</string>
+    <string name="title_activity_about_help">AboutHelp</string>
+    <string name="title_activity_person_info_edit">PersonInfoEdit</string>
+    <string name="title_activity_person_info_unbind">PersonInfoUnbind</string>
+
+    <!-- Menu -->
+    <string name="exit">退  出</string>
+    <!-- About -->
+    <string name="aboutVersion">软件版本</string>
+    <string name="aboutHelp">使用帮助</string>
+    <string name="aboutUs">关于我们</string>
+    <string name="aboutService">反馈意见</string>
+
+    <!-- Button -->
+    <drawable name="buttonNormal">#FFFFFF</drawable>
+    <drawable name="buttonPressed">#3EAACE</drawable>
+
+    <!-- ButtonBlue -->
+    <drawable name="buttonBlueNormal">#3EAACE</drawable>
+    <drawable name="buttonBluePressed">#237793</drawable>
+
+    <!-- PersonInfo -->
+    <string name="personLook">查看个人资料</string>
+    <string name="personBind">绑定新设备</string>
+    <string name="personUnbind">解绑设备</string>
+    <string name="personSettingfile">自定义文件设置</string>
+    <string name="editHeader">修改头像</string>
+    <string name="editUsername">修改用户名</string>
+    <string name="editPassword">修改密码</string>
+    <string name="editEmail">修改邮箱</string>
+    <string name="RealName">真实姓名</string>
+    <string name="ID">身份证号</string>
+    <string name="Mobile">手机号</string>
+    <string name="BindMobile">手机</string>
+    <string name="BindPC">电脑</string>
+    <string name="title_activity_about_service">AboutService</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_application_log">ApplicationLog</string>
+    <string name="title_activity_application_account">ApplicationAccount</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>
